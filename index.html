@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobreMim">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio" class="home">
+       <div class="home__container container grid"> 
+            <div class="inicio__content grid">
+                <div class="inicio__social"> 
+                    <a href="https://github.com/EdlainePaula">     
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/edlaine-encarna%C3%A7%C3%A3o-358792249">     
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="inicio_img">
+                    <img class="imagem_perfil" src="Assets/Me.png" alt="">
+                </div>
+                <div class="arrow">
+                    <svg width="270" height="-3000" viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M250 75 C 200 30, 100 30, 50 75" stroke="black" stroke-width="1" fill="transparent"/>
+                        <polygon points="50,80 40,65 30,85" stroke-width="1" fill="black"/>
+                    </svg>
+                </div>
+                <div class="inicio__descricao">
+                    <h1 class="titulo"> Olá, meu nome é <strong class="destaque"> Edlaine!</strong></h1><br><br>
+                    <h2>Judges a book by its cover...</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobreMim" class="sobre__container container grid">
+        <h2 class="titulo__section">Sobre mim</h2>
+        <div class="descricao">
+            <p class="descricao__sobre">
+                 Admiradora de critica de cinema, que não perde uma boa partida de futebol de várzea, e adora criar coisas, desde a toalhinha de crochê a trançar cabelos. Produzir e trabalhar a criatividade é para mim uma experiência de carinho que leva a um resultado gratificante,  e foi neste sentido que a tecnologia me encantou.<br><br>
+                Iniciei com pequenos projetos em HTML e CSS durante o Bootcamp "Desenvolve", do grupo Boticário, uma imersão por diversos conteúdos. Esta jornada me deu a certeza que escolhi o caminho certo, desenvolver sites responsivos, com acessibilidade e conexão com o usuário e continuar expandido conhecimento. 
+            </p>
+            <img src="Assets/image 9.png" alt="">
+        </div>
+            <a class="btn__cv" href="CV Edlaine.pdf" download>Download CV</a>
+    </section>
+
+    <section id="habilidades" class="section">
+        <h2 class="titulo__section">Habilidades</h2>
+        <div class="skills__lista grid">
+            <div class="skills__titulo">
+                <h4 class="skills__nome">HTML</h4>
+                <span class="skills__number">50%</span>
+            </div>
+            <div class="skills__bar">
+                <span class="skills__porcentagem skill__html"></span>
+            </div>
+            <div class="data">
+                <div class="skills__titulo">
+                    <h4 class="skills__nome">CSS</h4>
+                    <span class="skills__number">50%</span>
+                </div>
+                 <div class="skills__bar">
+                    <span class="skills__porcentagem  skill__css"></span>
+                </div>
+            </div>
+            <div class="skills__titulo">
+                <h4 class="skills__nome">JavaScript</h4>
+                <span class="skills__number">50%</span>
+            </div>
+            <div class="skills__bar">
+                <span class="skills__porcentagem skill__js"></span>
+            </div>
+            <div class="skills__titulo">
+                <h4 class="skills__nome">Node JS</h4>
+                <span class="skills__number">40%</span>
+            </div>
+            <div class="skills__bar">
+                <span class="skills__porcentagem skill__nj"></span>
+            </div>
+            <div class="skills__titulo">
+                <h4 class="skills__nome">PostgreSQL</h4>
+                <span class="skills__number">50%</span>
+            </div>
+            <div class="skills__bar">
+                <span class="skills__porcentagem  skill__pg"></span>
+            </div>
+            <div class="skills__titulo">
+                <h4 class="skills__nome">GitHub</h4>
+                <span class="skills__number">35%</span>
+            </div>
+            <div class="skills__bar">
+                <span class="skills__porcentagem  skill__gh"></span>
+            </div>
+            <div class="skills__titulo">
+                <h4 class="skills__nome">Figma</h4>
+                <span class="skills__number">40%</span>
+            </div>
+            <div class="skills__bar">
+                <span class="skills__porcentagem  skill__figma"></span>
+            </div>
+        </div>
+    
+    </section>
+
+    <section id="portfolio" class="section">
+        <h2 class="titulo__section">Portfólio</h2>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+               
+                <div class="slide first">
+                         <img src="Assets/alurabook.png" alt="">
+                        <div class="content">
+                            <p class="descricao__projeto"> Primeiro projeto realizado na Alura;
+                                Construindo um site com HTML e CSS com a abordagem mobile-first, a partir do protótipo de site criado no Figma. 
+                            </p>
+                            <a href="https://alurabook-mauve-zeta.vercel.app/" class="button__red">Visualizar</a>
+                        </div>
+                </div>
+               <div class="slide">
+                 <img src="Assets/landpage.png" alt=""> 
+                    <div class="content">
+                        <p> #7DaysOfCode
+                            Colocando em prática os conhhecimentos de HTML e CSS através de desafios diários, apresentados pela Alura de uma landpage.  
+                        </p>
+                        <a href="https://7-days-of-code-gules.vercel.app/" class="button__red">Visualizar</a>
+                    </div>
+                </div>
+               <div class="slide">
+                    <img src="Assets/projetoBoticario.png" alt="">
+                    <div class="content">
+                         <p> Projeto Prático - DevWeb
+                            Foram 3° desafios propostos pelo Grupo Boticario, para criar um site de produtos de beleza, através dos conhecimentos adquiridos: HTML, CSS, JavaScript, MongoAtlas e NodeJS.
+                         </p>
+                         <a href="https://github.com/EdlainePaula/DIH_Quebrada" class="button__red">Visualizar</a>
+                    </div>
+               </div>
+               <div class="slide">
+                    <img src="Assets/landpage.png" alt="">
+                    <div class="content">
+                        <p> Projeto Prático - DevWeb
+                           Foram 3° desafios propostos pelo Grupo Boticario, para criar um site de produtos de beleza, através dos conhecimentos adquiridos: HTML, CSS, JavaScript, MongoAtlas e NodeJS.
+                        </p>
+                        <a href="https://7-days-of-code-gules.vercel.app/" class="button__red">Visualizar</a>
+                    </div>
+               </div>
+
+               <div class="auto__navegacao">
+                    <div class="auto__btn1"></div>
+                    <div class="auto__btn2"></div>
+                    <div class="auto__btn3"></div>
+                    <div class="auto__btn4"></div>
+               </div>
+
+            </div>
+            
+            <div class="manual__navegacao">
+                <label for="radio1" class="manual__btn"></label>
+                <label for="radio2" class="manual__btn"></label>
+                <label for="radio3" class="manual__btn"></label>
+                <label for="radio4" class="manual__btn"></label>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <p>&copy; 2024 Edlaine. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
