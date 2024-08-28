@@ -48,6 +48,13 @@ header {
     padding: 15px 15px;
 }
 
+.inicio__descricao h2{
+    font-size: 1rem;
+    font-family: var(--fonte-principal);
+    text-align: center;
+    padding: 0;
+}
+
 
 .sobre__mim{
     display: flex;
@@ -629,5 +636,11 @@ footer {
 
     .manual__btn{
         display: none;
+    }
+    .inicio__descricao h2{
+    font-size: .8rem;
+    font-family: var(--fonte-principal);
+    text-align: justify;
+    padding: 0;
     }
 }
