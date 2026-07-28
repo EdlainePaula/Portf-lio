@@ -7,7 +7,7 @@
 
 <p> Esse portfólio foi desenvolvido durante os meus aprendizados no Bootcamp "Desenvolve" do Grupo Boticario\ junto a Alura.
 
-  O design foi inspirado por um projeto no figma, e os conceitos aplicados de HTML, CSS e JavaScript foram adquiridos durante a formaçaõ FullStack. :bulb:
+  O design foi inspirado por um projeto no figma, e os conceitos aplicados de HTML, CSS e JavaScript foram adquiridos durante a formação FullStack. :bulb:
 
   :hammer: Por ser um projeto desenvolvido a longo dos meses, ainda não esta na melhor versão, mas chegarei ao resultado esperado em breve :hammer:
 </p>
